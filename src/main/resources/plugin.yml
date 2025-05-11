@@ -1,0 +1,12 @@
+name: closing_reminder
+version: 'BETA-1.0'
+main: com.example.hw699.closing_reminder.Closing_reminder
+api-version: '1.21'
+commands:
+  shutdown:
+    description: "Shuts down the server after a delay or immediately"
+    usage: "/shutdown [HH.mm] or /shutdown cancel"
+    permissions:
+      closingreminder.shutdown:
+        description: Permission to schedule and cancel shutdown
+        default: op

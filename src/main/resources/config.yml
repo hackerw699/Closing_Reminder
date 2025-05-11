@@ -1,0 +1,7 @@
+shutdown_kick_message: "§cThe server is shutting down for operational hours."
+
+sounds:
+  countdown:
+    sound: "block.note_block.pling"
+    volume: 1.0
+    pitch: 1.0
